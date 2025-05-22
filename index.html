@@ -7,34 +7,51 @@
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-            <header class="header">
-                <h1>Git Quiz</h1>
-            </header>
-            <h2>Willkommen zu dieser Quiz</h2>
-                <p class="text-center fs-5 pb-2">
-                    Hier kannst du dein Wissen über Git testen.
-                </p>
-        </div>
         <div class="container">
+            <header class="header">
+                <img
+                    class="git-img"
+                    src="https://git-scm.com/images/logo@2x.png"
+                    alt="Git Logo"
+                />
+                <h1>Quiz</h1>
+            </header>
+        </div>
+        <div class="startpage">
+            <h2>Welcome to this git quiz</h2>
+            <p class="text-center fs-5 pb-2">
+                Description, bla bla bla Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Earum pariatur maiores distinctio quo dolores
+                iusto quis voluptatibus, corrupti, sapiente porro facilis quae
+                perferendis iste reiciendis fugit. Officiis natus minus nemo
+                laboriosam quibusdam quia sunt ipsa libero ipsum mollitia
+                distinctio accusamus id facilis sit explicabo tempore,
+                voluptatem cumque, repudiandae, dolore beatae odio? Nostrum, ex
+                itaque amet, officiis tempora commodi ullam eveniet ratione
+                nihil perspiciatis doloremque recusandae similique vitae sequi
+                maxime cupiditate at laudantium reiciendis esse! Quaerat
+                provident cum voluptatum error vitae necessitatibus consequatur,
+                aut consectetur sequi reprehenderit, voluptas porro, eos dolores
+                veritatis molestiae commodi illo ex rem iste voluptatibus!
+                Excepturi, commodi!.
+            </p>
+        </div>
 
-                <h5>
-                    Drücke auf den knopf hier unten damit du den quiz anfangen
-                    kannst.
-                </h5>
-            
-                    <div class="img-wrapper">
-                    <img
-                        class="git-img"
-                        src="https://git-scm.com/images/logo@2x.png"
-                        alt="Git Logo"
-                    />
-                </div>
-                <div>
-                    <button class="button" onclick="startQuiz()">
-                        startte den quiz!
-                    </button>
-                </div>
+        <div class="errormessage" id="errorMessage">
+            <h2>Something went wrong</h2>
+            <p class="text-center fs-5 pb-2">
+                Please refresh the page and contact the administrator at
+                name@email.com.
+            </p>
+        </div>
+
+        <div class="container">
+            <h5>Press the button to start the quiz.</h5>
+
+            <div>
+                <button class="button" onclick="startQuiz()">Start quiz</button>
             </div>
+        </div>
 
         <script src="js/main.js"></script>
     </body>
